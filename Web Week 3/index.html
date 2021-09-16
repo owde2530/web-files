@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+<!-- It's always a good idea to get a color palette before hand...makes it look less 1990's -->
+<!-- There are standard fonts built into HTML: Aerial, Verdana, Helvetica,
+Tahoma, Trebuchet, Times New Roman, Georgia, Garamond, Courier New, Brush Script MT -->
+<!-- It is best practice to not use in line styling - more convenient to change it in one place -->
+</head>
+<body>
+  <section id="top">
+  <ul style="color:#eba434">
+<!-- everything changes underneath to the according style -->
+<!-- There are a handful default colors, like blue green red yellow -->
+<!-- You can also use Hex codes for colos, as well. -->
+<!-- Most often, people use Hex codes, and thne maybe also RGB values as well. -->
+
+    <li>Coffee</li>
+    <li>tea
+      <ul style="color:blue">
+        <li>Black</li>
+        <li>Green</li>
+    </li>
+    <li>Water</li>
+  </ul>
+
+<a href="https://google.com"><img src="img.jpg" style="width:20vw"></a>
+</section>
+<section id="input">
+<form>
+<label for="fname" style="color:blue">First name:</label></br>
+<input type="text" name="fname"></br>
+<label for="lname">Lirst name:</label></br>
+<input type="text" name="lname"></br>
+<input type="radio" id="coffee" name="coffee"><label for="coffee">Coffee</label></br>
+<input type="radio" id="water" name="water"><label for="water">Water</label></br>
+<button id="submit">Submit</button>
+</form>
+<a href ="#top">Go back to Top</a>
+</section>
+</body>
+</html>
