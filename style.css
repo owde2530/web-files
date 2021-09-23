@@ -1,0 +1,52 @@
+body {
+  font-family: times new roman;
+  font-size: 44px;
+  color: rgb(255,255,255);
+  font-style: italic;
+  background-image: url('/AboutMeAssets/DSCF5953 copy.JPG');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+}
+p {
+  font-style: italic;
+  background-color: rgb(200,200,200);
+
+  /* font-color: rgb(100,100,100); */
+}
+#GeneralFacts {
+  /* border: 15px;
+  background-color: rgb(200,200,200); */
+}
+#GoalsfrCourse {
+  background-image: url("4095753.jpg");
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size; cover;
+}
+h1 {
+  /* color: rgb(100,100,100) */
+  font-style: bold;
+  background-color: rgb(100,100,100)
+  border: 45px;
+}
+#FavoriteVideos {
+  border: groove;
+  padding: 15px;
+}
+ul {
+  font-style: italic;
+  background-color: rgb(200,200,200);
+  padding: 40px;
+  margin-left: 25px;
+  border: solid rgb(30,30,30) 10px;
+}
+img {
+  border: solid white 5px;
+  max-width: 40%;
+  height: auto;
+  padding: 75px
+  float: left;
+}

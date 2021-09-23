@@ -1,0 +1,74 @@
+body {
+  font-family: arial;
+  font-size: 2vw;
+  font-weight: 400;
+  border: solid rgb(100,100,100);
+  background-image: url('4095753.jpg');
+  background-repeat: no-repeat;
+}
+h1 {
+  color: black !important;
+  border: solid white 1px;
+  border-style: ridge;
+  padding: 20px;
+  font-family: "Open Sans";
+}
+/* Important will override any other styling that's imposed on it - use with caution */
+p {
+  color: rgb(100,100,100);
+  kerning: 3px;
+}
+.gray {
+  color: rgb(150,150,150);
+}
+.background p{
+  background-color: rgb(220,220,200);
+}
+span {
+  color: blue;
+  font-weight: bold;
+}
+/* hr {
+  border: dashed rgb(255,225,100);
+} */
+
+#dotted{
+  border: dotted rgb(255, 225, 0) 2px;
+}
+
+#solid{
+  border: solid rgb(255, 225, 0) 2px;
+}
+#dashed{
+  border: dashed rgb(255, 225, 0) 2px;
+}
+
+#two {
+  border: 5vw;
+  padding: 50px;
+  background-color: rgb(100,100,100);
+  margin-left: 50px;
+  /* padding: to right bottom left; */
+  padding: 30px 0px 30px 0px;
+}
+#p2s2 {
+  background-color: white;
+  border: 2px;
+  padding: 5px;
+  z-index: -1;
+  /* this makes it so that text is behind our text. Ah yes this floor is made of floor */
+}
+#homelessjoe {
+  margin-left: 25vw;
+  margin-right: 20vw;
+  padding: 10px;
+  position: relative;
+}
+#header {
+  /* relative: ---; */
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+/* To style behind, this is called box model, interestingly */
+/* Probably has to do with padding tbh */
