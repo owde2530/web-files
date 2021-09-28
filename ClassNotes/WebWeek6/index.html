@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>Week 6</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue">
+</head>
+
+<body>
+  <section id="hero">
+    <h1>Welcome to this Site!</h1>
+    <img alt="A man just trying to survive." src="hero.jpg" id="heroimg">
+  </section>
+
+  <section id="one">
+    <h1 id="herotext">This is my first section</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
+    <p>consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+      non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </section>
+
+  <section id="two">
+    <h2>This is my <a href="https://google.com">second section</a></h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
+    <p>consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+      non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </section>
+
+  <section id="three">
+    <h2>This section contains a button</h2>
+    <button id="mybutton">Click this Button!</button>
+    <button id="mybutton2">Click this Button!</button>
+  </section>
+
+<script>
+  console.log("javascript working");
+  document.getElementByID("mybutton").addEventListener("click", function(){alert("you pushed the button!")});
+  document.getElementByID("mybutton2").addEventListener("click", buttonClicked});
+  document.getElementByID("hero").addEventListener("click", heroClicked);
+
+  function buttonClicked(){
+    alert("you pushed the second button!");
+    document.getElementByID("herotext").innerHTML = "You are not Welcome....";
+  }
+  function heroClicked(){
+    alert("You clicked the hero!");
+  }
+  function buttonOne(){
+    document.getElementByID("first").style.color = "red";
+    document.getElementById('three').style.backgroundColor = "skyBlue";
+  }
+</script>
+
+</body>
+
+</html>

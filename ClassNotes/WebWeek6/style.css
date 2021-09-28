@@ -1,0 +1,87 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+h1, h2 {
+  font-family: "Bebas Neue";
+}
+
+h2 {
+  font-size: 40px;
+}
+
+p {
+  font-family: helvetica;
+}
+
+
+#hero {
+  width: 100vw;
+  height: 60vh;
+  overflow: hidden;
+  margin: 0px;
+}
+
+#hero img{
+  width: 100vw;
+  position: relative;
+  /* I want the position of the image to be dependent on the section it's in */
+  bottom: 300px;
+}
+
+#hero h1 {
+  z-index: 1;
+  /* z index is essentially the up or down scale of a site - ie, where it's positioned
+  behind or above. */
+  position: relative;
+  font-size: 5vw;
+  top: 30vh;
+  margin: 0 0 0 7vw;
+}
+
+#one, #two, #three{
+  margin-left: 7vw;
+  margin-right: 3vw;
+  margin-top: 10vw;
+}
+
+button{
+  background-color: #ebbd34;
+  font-family: "Bebas Neue";
+  font-size: 30px;
+  margin: 10px;
+  position: fixed;
+  padding: 7px 15px;
+}
+
+button:active{
+  background-color: blue;
+  color: white;
+}
+button:hover{
+  border: solid black 3px;
+}
+a:link{
+  color:blue;
+}
+a:visited{
+  color: lightgrey;
+}
+a:hover{
+  font-size: 200%;
+  color: red;
+}
+a:active{
+  color:red;
+}
+/* There's one other way to distinguish between left and right, and what not.
+top and bottom are first, left and right are second - */
+/* divs are considered out of standard for HTML - it's common for people to use DIVs... */
+/* But, it's still important to know how to use sections...sections are the standard of HTML 5 */
+/* the bottom function essentially pushes the image up by a bit. */
+
+/* There are some ordering rules for applying styling attributes to links:
+a:hover MUST come after a:link and a:visited
+a:active MUST come after a:hover */
+
+/* Magazines can be a great place to find inspirations for text spacing! */
