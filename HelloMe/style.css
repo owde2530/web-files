@@ -1,0 +1,59 @@
+body {
+  font-family: times new roman;
+  font-size: 44px;
+  color: rgb(255,255,255);
+  font-style: italic;
+  background-image: url('BGLeaves.JPG');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+}
+p {
+  font-style: italic;
+  background-color: rgb(200,200,200);
+  float: right;
+}
+
+#GeneralFacts {
+  /* border: 15px;
+  background-color: rgb(200,200,200); */
+}
+h1 {
+  /* color: rgb(100,100,100) */
+  font-style: bold;
+  background-color: rgb(100,100,100)
+  border: 45px;
+}
+/* #FavoriteVideos {
+  border: groove;
+  padding: 15px;
+} */
+#IntroP {
+  background-color: rgb(60,60,60);
+  border: solid 8px;
+  margin: 10px;
+  padding: 10px;
+}
+#GoalsDesc{
+  background-color: rgb(60,60,60);
+  border: solid 8px;
+  margin: 10px;
+  padding: 10px;
+}
+ul {
+  font-style: italic;
+  background-color: rgb(100,100,100);
+  padding: 60px;
+  margin-left: 40px;
+  border: solid rgb(255,255,255) 8px;
+}
+img {
+  border: solid white 15px;
+  max-width: 35%;
+  height: auto;
+  margin-left: 250px;
+  /* margin-top: 10px; */
+  padding: 75px;
+}
