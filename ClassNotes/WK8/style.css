@@ -1,0 +1,36 @@
+body {
+  background-color: #1e81b0;
+}
+div {
+  background-color: pink;
+}
+#boyzflex {
+  display: flex;
+}
+.options{
+  flex-grow: 1;
+  width: auto;
+  margin: 3vw;
+}
+img{
+  max-width: 25vw;
+  height: 30vh;
+  width: 25vw;
+  object-fit: cover;
+  padding: 10px;
+  /* object-position: 0px 50px 0px 0px; */
+}
+button {
+  float: right;
+  padding: 10px 50px;
+  margin-right: 10vw;
+}
+
+h1{
+  margin-left: 50px;
+  font-style: italic;
+}
+.blue {
+  background-color: blue;
+  color: white;
+}

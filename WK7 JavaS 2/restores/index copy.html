@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title> - Quote Machine - </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body id"bgbody">
+  <section id="underne">
+    <h1 id="quoteline1">Click for a quote:</h1>
+  </section>
+</body>
+
+<body id="mainbg">
+  <section id="qbox">
+    <h1 id="quoteline2">Click for a quote:</h1>
+    <button id="qbutton">New Wisdom:</button>
+  </section>
+  <script>
+    const quotes = ["One","Two","Three","Four"];
+    let quotecount = 0;
+    var btopac = document.getElementById("quoteline1").style.opacity;
+
+    document.getElementById("qbutton").addEventListener("click",changeQuote);
+
+    function changeQuote(){
+        console.log(quotes[quotecount]);
+        document.getElementById("quoteline1").innerHTML = quotes[quotecount];
+        document.getElementById("quoteline2").innerHTML = quotes[quotecount];
+        // document.write(quotes[quotecount])
+        if (quotecount>=quotes.length-1){
+          quotecount=0;
+        }else{
+          quotecount++;
+        }
+        // console.log(document.getElementById("quoteline1").style.opacity);
+        // document.getElementById("quoteline1").style.opacity = (.3);
+        // document.getElementById("quoteline1").style.fontSize = ("xlarger");
+      }
+  </script>
+</body>
+
+</html>

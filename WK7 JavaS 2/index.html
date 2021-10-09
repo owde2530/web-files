@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title> - Quote Machine - </title>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+</head>
+
+<body id="mainbg">
+  <div class="videobg">
+    <video autoplay muted loop id="videobg">
+      <source src="skylapsebg.mp4" type="video/mp4">
+    </video>
+  </div>
+  <section id="underne">
+    <div class="undertext">
+      <h1 id="quoteline1">Click for a quote:</h1>
+    </div>
+  </section>
+  <section id="qbox">
+    <h1 id="quoteline2">Click for a quote:</h1>
+    <button id="qbutton">New Wisdom:</button>
+  </section>
+  <script>
+    const quotes = ["Vitamin C is Vitamin Yes in Spanish.","Why do you bake cookies and cook bacon?","Can you daydream at night?","What time is it not?","Who created God?"];
+    let quotecount = 0;
+    var btopac = document.getElementById("quoteline1").style.opacity;
+
+    document.getElementById("qbutton").addEventListener("click",changeQuote);
+
+    function changeQuote(){
+        console.log(quotes[quotecount]);
+        document.getElementById("quoteline1").innerHTML = quotes[quotecount];
+        document.getElementById("quoteline2").innerHTML = quotes[quotecount];
+        // document.write(quotes[quotecount])
+        if (quotecount>=quotes.length-1){
+          quotecount=0;
+        }else{
+          quotecount++;
+        }
+        document.getElementById("quoteline1").style.animation.delay = (3);
+      }
+  </script>
+</body>
+
+</html>

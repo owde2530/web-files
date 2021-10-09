@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>Quote Machine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section id="button">
+    <h1 id="qtext">Welcome to the quote machine, click below.</h1>
+    <!-- <p>Joe mama yo mama</p> -->
+    <button id="newquote">New Quote</button>
+  </section>
+  <section id="flex">
+    <div class="flexitem">
+      <h2>One</h2>
+    </div>
+
+    <div class="flexitemtwo">
+      <h2>Two</h2>
+    </div>
+
+    <div class="flexitem">
+      <h2>Three</h2>
+    </div>
+  </section>
+  <script>
+    const quotes = ["Yesterday, you said tomorrow.", "Im not gay but that guy is hot."
+    ,"Sprite cranberry?",
+    "If middle schoolers ran a country they would absolutely run a fascist dictatorship.",
+    "I wAtChEd ThIs ViDeO tHiS wEeK.","Can I give you a sloppy little kiss?",
+    "How much fun would it be to bring a chimp bowling?","Sister love is very different from daddy love.",
+    "Is that what insecure people tell themselves?"];
+    let quotecount = 0;
+    // console.log(quotes.length);
+
+    document.getElementById("newquote").addEventListener("click",buttonClicked);
+
+    function buttonClicked(){
+        console.log(quotes[quotecount]);
+        document.getElementById("qtext").innerHTML = quotes[quotecount];
+        // console.log(quotecount);
+        if (quotecount>=quotes.length-1){
+          quotecount=0;
+        }else{
+          quotecount++;
+        }
+        // alert("Button clicked!");
+    }
+  </script>
+<!-- Anywhere on teh web that you see is horizontally formatted, and it also helps with formatting, and...all that. -->
+<!-- It can also be done vertically - also, if the page is in card view, it can help with that, too.  -->
+<!-- Self-human - stuff they can do per week daily that can help them better themselves and what not, you know? Like...
+For instance - on Sunday, you can do the dishes, call a friend, etc. -->
+<!-- Basically, just build an interactive menu. -->
+<!-- So, this week, create three to five items, of being a better human, person, etc. etc. - other assignemtn will be making a
+quote machine,dude. Make it themed, as well. Also can make an image server, as well. -->
+</body>

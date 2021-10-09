@@ -1,0 +1,49 @@
+#button {
+  font-family: Times;
+  background-color: rgb(100,100,100);
+  margin: 30vh 20vw;
+  padding: 7vw;
+  font-style: bold;
+  border-radius: 8px;
+}
+#newquote {
+  color: rgb(40,40,40);
+  float: right;
+  padding: 3vh 5vw;
+  /* top bottom then left right in syntax*/
+}
+#flex {
+  display: flex;
+  margin: 150px;
+}
+
+.flexitem{
+  flex-grow: 1;
+}
+.flexitemtwo{
+  flex-grow: 2;
+}
+/* we want every column to be same size */
+button:hover {
+  border: #fff solid 1px;
+}
+
+div {
+  border: 1px solid black;
+  margin-left: 2vw;
+  text-align: center;
+}
+
+button:active {
+  /* color: #c3c6c9; */
+  color: blue;
+}
+
+h1 {
+  margin: 7px;
+}
+
+h2 {
+  padding: 7vw;
+  /* position: center; */
+}

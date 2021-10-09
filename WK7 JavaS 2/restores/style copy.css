@@ -1,0 +1,43 @@
+#mainbg {
+  /* color: blue; */
+  font-family: Times;
+  z-index: 6;
+}
+#bgbody {
+  z-index: 3;
+}
+#underne {
+  z-index: 1;
+  margin: 20vh;
+  opacity: 60%;
+}
+
+#qbox {
+  background-color: red;
+  padding: 7vw;
+  border-radius: 7px;
+  margin: 12vw;
+  /* margin-top: 40vw;
+   */
+  align: center;
+  z-index: 2;
+}
+h1 {
+  font-style: italic;
+}
+button {
+  margin-left: 40vw;
+}
+.undertext {
+  z-index: 3;
+  margin: 10vw;
+}
+.overtext {
+  z-index: 6;
+}
+@keyframes example1 {
+  from {opacity:.3}
+  to {opacity:.7}
+  to {opacity:.3}
+  from {size}
+}
