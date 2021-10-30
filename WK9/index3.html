@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>Script Machine</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="smicon.png">
+</head>
+
+<body>
+  <img id="titleimage" src="titleframe1.png" alt="Title Image, reading: Script Machine">
+  <section id="mainbox">
+    <div class="leftside">
+      <div class="buttons">
+        <button id="llbu1"><a href="index.html">Logline</a></button>
+        <button id="lbbu2"><a href="index2.html">Lookbook</a></button>
+        <button id="sobu3"><a href="index3.html">Step Outline</a></button>
+      </div>
+    </div>
+    <section id="rightside">
+      <div class="diboxs2">
+        <h1 id="h1title">Step Outline:</h1>
+        <p id="pexplan.">Try and get down the concrete plot points of the story.
+        This is a great jumping off point for writing and developing the script.</p>
+        <textarea id="tbox1" cols="39" rows="4">Beginning:</textarea>
+        <textarea id="tbox1" cols="39" rows="4">Middle:</textarea>
+        <textarea id="tbox1" cols="39" rows="4">End:</textarea>
+      </div>
+    </section>
+  </section>
+  <script type="text/javascript">
+  const llh1 = document.getElementById('h1title');
+  const lbh1 = ["Lookbook:"]
+  const soh1 = ["Step Outline:"]
+
+  document.getElementById('llbu1').addEventListener("click", boxchange1);
+  document.getElementsByClassName('diboxs1').addEventListener("click", boxchange2);
+  // document.getElementById('lbbu2').addEventListener("click",boxchange2);
+  // document.getElementById('sobu3').addEventListener("click",boxchange3);
+
+
+  </script>
+</body>

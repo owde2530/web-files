@@ -1,0 +1,94 @@
+body {
+  background-image: url('paperbg.png');
+  background-size: cover;
+  font-family: courier;
+}
+button {
+  margin-top: 4vh;
+  height: 17vh;
+  width: 20vw;
+  border-radius: 24px;
+  font-family: courier;
+  font-size: 2vw;
+  background-image: url('buttonbg.png');
+  background-size: cover;
+}
+.diboxs1 {
+  width: 40vw;
+  margin-top: -5vh;
+  float: right;
+  /* opacity: 0;  */
+  z-index: 2;
+}
+.diboxs2 {
+  width: 40vw;
+  /* height: 10vh; */
+  margin-top: -5vh;
+  float: right;
+  z-index: 3;
+  /* z-index: 3; */
+  /* background-color: red; */
+  /* z-index: 1; */
+}
+.buttons {
+  width: 26vw;
+  height: 18vh;
+  /* margin-top: 10px; */
+}
+#mainbox {
+  background-color: #F5f5f3;
+  border-radius: 45px;
+  height: 70vh;
+  margin: 9vw;
+  padding: 2vw;
+  border: solid black 4px;
+}
+.leftside {
+  float: left;
+  /* background-color: red; */
+}
+#rightside {
+  clear: right;
+  /* background-color: #F7f7e9; */
+  margin-left: 30vw;
+  border-radius: 20px;
+  height: 70vh;
+  /* border: solid 4px; */
+}
+.flex-container {
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: flex-start;
+  border: solid 2px black;
+  max-height: 75vh;
+  max-width: inherit;
+}
+img {
+  max-width: 70%;
+  max-height: 70%;
+  padding: 13px;
+}
+#titleimage {
+  max-width: 70%;
+  max-height: 70%;
+  margin-top: -15vh;
+  margin-bottom: -25vh;
+}
+
+p {
+  margin-left: 17px;
+}
+
+.anititle {
+  animation-duration: 5s;
+  animation-name: titleani;
+}
+@keyframes titleani {
+  from {background-image: url('titleframe1.png');}
+  to {background-image: url('titleframe2.png');}
+  to {background-image: url('titleframe3.png');
+  to {background-image: url('titleframe4.png');}
+}
