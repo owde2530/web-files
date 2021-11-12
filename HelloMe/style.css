@@ -1,59 +1,124 @@
-body {
-  font-family: times new roman;
-  font-size: 44px;
-  color: rgb(255,255,255);
-  font-style: italic;
-  background-image: url('BGLeaves.JPG');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
+@media screen and (min-width: 700px){
+  body {
+    font-family: Times;
+    font-size: 30px;
+    color: rgb(255,255,255);
+    font-style: italic;
+    background-image: url('BGLeaves.JPG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .fleximgsbox {
+    display: flex;
+  }
+  p {
+    font-style: italic;
+    background-color: rgb(200,200,200);
+  }
+  h1 {
+    font-style: bold;
+    background-color: rgb(100,100,100);
+    border: 30px;
+  }
+  #IntroP {
+    background-color: rgb(60,60,60);
+    clear: right;
+    margin-left: 3vw;
+  }
+  #GeneralFacts {
+    background-color: rgb(60,60,60);
+    border: solid 4px;
+    margin-top: 12vh;
+    margin: 8px;
+    padding: 8px;
+  }
+  #GoalsDesc{
+    background-color: rgb(60,60,60);
+    border: solid 4px;
+    margin: 8px;
+    padding: 8px;
+    margin-bottom: 7vh;
+  }
+  ul {
+    font-style: italic;
+    background-color: rgb(100,100,100);
+    padding: 40px;
+    margin-left: 30px;
+    border: solid rgb(255,255,255) 6px;
+  }
+  img {
+    border: solid white 4px;
+    max-width: 15%;
+    height: auto;
+    /* margin-left: 250px; */
+    /* margin-top: 10px; */
+    padding: 30px;
+    float: left;
+  }
+
 
 }
-p {
-  font-style: italic;
-  background-color: rgb(200,200,200);
-  float: right;
-}
+@media screen and (max-width:701px){
+  body {
+    font-family: times new roman;
+    font-size: 44px;
+    color: rgb(255,255,255);
+    font-style: italic;
+    /* background-color: rgb(60,60,60); */
+    background-image: url('BGLeaves.JPG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
 
-#GeneralFacts {
-  /* border: 15px;
-  background-color: rgb(200,200,200); */
-}
-h1 {
-  /* color: rgb(100,100,100) */
-  font-style: bold;
-  background-color: rgb(100,100,100)
-  border: 45px;
-}
-/* #FavoriteVideos {
-  border: groove;
-  padding: 15px;
-} */
-#IntroP {
-  background-color: rgb(60,60,60);
-  border: solid 8px;
-  margin: 10px;
-  padding: 10px;
-}
-#GoalsDesc{
-  background-color: rgb(60,60,60);
-  border: solid 8px;
-  margin: 10px;
-  padding: 10px;
-}
-ul {
-  font-style: italic;
-  background-color: rgb(100,100,100);
-  padding: 60px;
-  margin-left: 40px;
-  border: solid rgb(255,255,255) 8px;
-}
-img {
-  border: solid white 15px;
-  max-width: 35%;
-  height: auto;
-  margin-left: 250px;
-  /* margin-top: 10px; */
-  padding: 75px;
+  .fleximgsbox {
+    display: flex;
+  }
+  p {
+    font-style: italic;
+    background-color: rgb(200,200,200);
+  }
+  h1 {
+    /* color: rgb(100,100,100) */
+    font-style: bold;
+    /* background-color: rgb(100,100,100) */
+    border: 45px;
+  }
+  #IntroP {
+    background-color: rgb(60,60,60);
+    clear: right;
+    margin-left: 3vw;
+    margin-bottom: 5vh;
+  }
+  #GeneralFacts {
+    background-color: rgb(60,60,60);
+    border: solid 6px;
+    margin-top: 12vh;
+    margin: 10px;
+    padding: 10px;
+  }
+  #GoalsDesc{
+    background-color: rgb(60,60,60);
+    border: solid 8px;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 7vh;
+  }
+  ul {
+    font-style: italic;
+    background-color: rgb(100,100,100);
+    padding: 60px;
+    margin-left: 40px;
+    border: solid rgb(255,255,255) 8px;
+  }
+  img {
+    border: solid white 4px;
+    max-width: 20%;
+    height: auto;
+    /* margin-left: 250px; */
+    /* margin-top: 10px; */
+    padding: 40px;
+    float: left;
+  }
 }

@@ -1,0 +1,92 @@
+@media screen and (min-width: 700px){
+  body {
+    font-size: 16px;
+  }
+  h1 {
+    margin-left: 6vw;
+  }
+  h2{
+    margin-left: 4vw;
+  }
+  section {
+    padding: 15px;
+    margin: 20px;
+  }
+  #portimg {
+    max-width: 10%;
+  }
+  img {
+    max-width: 15%;
+    margin: 11px;
+  }
+}
+
+
+@media screen and (max-width: 701px){
+  body {
+    font-size: 25px;
+  }
+  h1 {
+    margin-left: 10vw;
+  }
+  h2 {
+    margin-left: 8vw;
+  }
+  section {
+    padding: 22px;
+    margin: 33px;
+  }
+  #portimg {
+    max-width: 30%;
+  }
+}
+
+
+body {
+  font-family: Times;
+  font-size: 25px;
+  color: rgb(255,255,255);
+  font-style: italic;
+  background-image: url('BGLeaves.JPG');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section {
+  background-color: rgb(60,60,60);
+  border-radius: 20px;
+  padding: 20px;
+  border: solid white 5px;
+  margin: 30px;
+  margin-left: 20vw;
+}
+.mainbody {
+  clear: right;
+}
+.sideimgs {
+  display: flex;
+  float: left;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: left;
+}
+#portimg {
+  float: left;
+  max-width: 25%;
+}
+h1 {
+  margin-left: 9vw;
+}
+h2 {
+  margin-left: 6vw;
+}
+.fleximgsbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+img {
+  max-width: 35%;
+  margin: 15px;
+  border-radius: 15px;
+  border: solid white 3px;
+}
