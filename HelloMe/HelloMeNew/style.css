@@ -63,13 +63,6 @@ section {
 .mainbody {
   clear: right;
 }
-.sideimgs {
-  display: flex;
-  float: left;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: left;
-}
 #portimg {
   float: left;
   max-width: 25%;
