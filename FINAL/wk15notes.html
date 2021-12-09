@@ -1,0 +1,41 @@
+const student = {
+  "firstName":"Mildred",
+  "lastName":"Croft",
+  "age": 21,
+  "year":"Junior"
+  "isUpperClassman":function(){
+    if(this.yeat=="Junior"||this.year==)
+  }
+}
+
+const teacher = {
+  "frisdtName":"Mildred",
+  "lastName":"Croft",
+  "age":35,
+  "classesL:["calculus 1," "Algebra 2", "Trigonometry"];
+}
+<!-- instead of using individual constants, then we just use an object in order to make a more general constant, so to speak.  -->
+
+let name = teacher.firstName;
+let UC = student.isUpperClassman();
+
+const stef = new.student("stefanie","Cook",25,"Junior");
+const name = stef.first;
+
+<!-- constructors are more general type of object, where we define general properties of this more general, non-singular object. -->
+
+function student (firstName, lastName, age, year){
+  this.first = firstName;
+  this.last = lastName;
+  this.age = age;
+  this.year = year;
+}
+function alumni (first, last,age,gradYR,profession){
+  student.call(this,first,last,age);
+  this.gradYR = gradYR;
+  this.profession;
+}
+const myalumni = new alumni ("stefanie,"Cook",25,2021);
+
+Abstraction (make more categores), Encapsulation (havet these categories still be consice, in their own way), Polymorphism (adapt these categories), Inheritance (constructors canbe used as parts of other constructors)
+Objects are not ordered - so, you would never access anything with data[0] data.widget.debug (use that instead)

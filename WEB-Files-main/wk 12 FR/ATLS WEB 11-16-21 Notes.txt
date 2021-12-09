@@ -1,0 +1,77 @@
+TF do you mean dude - 
+
+CSS and Javascript - 
+Round Up ?????? Retrospective (shit we've learned but really haven't like learned formally I guess lmao haha) 
+
+Cascading Style Sheets - 
+* Cascading Style Sheets s0rt the style of information based on several key factors to decide which one to ultimately display. The rules depend on the following macros:
+	* Origin and !Important
+		* Origin: Who is changing the document?
+			1. Browser !important
+			2. User !important
+			3. Author !important
+			4. Author
+			5. User
+			6. Browser (go without any styling to browser, THAT is browser styling - boring milquetoast-ass shit.)
+(Third party style libraries will often use important for their styling, tbh) 
+	* Selectors by Specifity
+	The more specific the CSS selector is, the higher it ranks in the final result. 
+		1. !important
+		2. Inline
+		3. ID
+		4. Class
+		5. Element/Tag
+	* Source Order
+	Whichever rule comes LAST will be the one that is RENDERED
+
+Javascript DOM Selectors - 
+How we access parts of the DOM (document object model) inside of our code.
+
+1. document.getElementsByTagName()
+2. document.getElementByClassName()
+3. document.getElementById()
+4. Document.querySelector()
+5. document.querySelectorAll()
+
+<img src="assets/image.jpg" alt="" id="myimg" class="pics">
+
+1. document.getELementsByTagName("img")[n]
+2. document.getElementsByClassName("pics")[n]
+3. document.getELementById("myimg")
+
+
+DOM selector + DOM property = value
+
+document.getElementsByTagName("img)[n] + style.display
+
+1.document.querySelector(".pics") or
+document.querySelector("#myimg") or
+document.querySelector("img")
+2. document.querySelectorAll("img")[n]
+(Main reason to use query selector is so that you can access all the fucking options, lmfao)
+
+
+Usually, then you make it as - 
+Let picture = document.getElementsByTagName("img")[n];
+picture.style.display = none;
+(Typically, you will see getElementByID more - you know that ID will always access that same element, and not another random one) 
+
+CSS transitions vs CSS Animations
+
+Transitions go from one state to the other - Animations go between many states
+
+Transitions use the property to be changed ie button:hover - animations use keyframes to break down the animation
+
+Transitions use pre-made structure (easy but limited) - Animations build their own movements from scratch
+
+
+
+
+*****************************************
+
+**FINAL!** 
+**Build your portfolio OR a project for your portfolio**
+
+**Ie business website, band website, tool, etc.** 
+
+**For HW this week, submit a track, a wireframe, and a design system!** 
