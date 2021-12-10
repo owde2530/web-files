@@ -68,13 +68,13 @@ a {
   /* margin-left: 18px; */
 }
 a:hover {
-  color: red;
+  color: gray;
 }
 a:visited {
   color: blue;
 }
 a:clicked {
-  color: green;
+  color: red;
 }
 .bottomtext {
   align-items: right;
@@ -120,7 +120,7 @@ p {
   flex-direction: column;
   float: left;
   z-index: 1;
-  padding: 5vh;
+  padding: 1vh;
   /* margin-top: 6vh; */
 }
 .aboutlist {
@@ -130,15 +130,9 @@ p {
   float: right;
   z-index: 1;
 }
-/* #mainpagebgvid {
-  position: fixed;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -1;
-} */
 button {
   margin: 2vw;
-  padding: 1vw;
+  /* padding: 1vw; */
   width: 17vw;
   border-radius: 15px;
   background-color: white;
