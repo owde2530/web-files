@@ -2,10 +2,7 @@
 body {
   font-family: Times;
   background-image: url("Assets/BGLeaves.jpg");
-  background-position: fixed;
   background-repeat: no-repeat;
-  /* background-size: cover; */
-  size: 40px;
 }
 .psidebar {
   float: left;
@@ -71,15 +68,8 @@ a:hover {
 a:visited {
   color: blue;
 }
-a:clicked {
-  color: red;
-}
-.bottomtext {
-  align-items: right;
-}
 ul {
   margin-left: 1vw;
-
 }
 p {
   margin-left: 30px;
@@ -137,9 +127,6 @@ button {
   font-size: 50px;
   font-family: Times;
   font-style: italic;
-}
-button:clicked {
-  color: gray;
 }
 .maintitle {
   padding: 1vw;
