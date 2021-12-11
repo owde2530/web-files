@@ -1,9 +1,7 @@
-
-
 /* General Page Styling */
 body {
   font-family: Times;
-  background-image: url("assets/BGLeaves.jpg");
+  background-image: url("Assets/BGLeaves.jpg");
   background-position: fixed;
   background-repeat: no-repeat;
   /* background-size: cover; */
